@@ -32,7 +32,7 @@ This dataset poses more challenges than MNIST due to the inclusion of **case-sen
 
 ## Insights Summary
 
-### 🎯 Model Performance
+### Model performance
 
 | Metric         | Value       |
 |----------------|-------------|
@@ -43,7 +43,7 @@ This dataset poses more challenges than MNIST due to the inclusion of **case-sen
 - The model generalizes well to unseen handwritten characters.
 - Accuracy of **88%** means that about **1 in every 8 characters is misclassified**.
 
-### 2. Frequent Misclassifications
+### 2. Frequent misclassifications
 
 - Characters that are visually similar are common sources of error:
   - 'O' vs '0'
@@ -52,7 +52,7 @@ This dataset poses more challenges than MNIST due to the inclusion of **case-sen
 
 These errors are expected in grayscale single-character classification tasks, especially with similar pixel structures.
 
-### 3. Model Architecture
+### 3. Model architecture
 
 The CNN consists of:
 - **2 Convolutional layers** (32 and 64 filters)
