@@ -50,7 +50,7 @@ This dataset poses more challenges than MNIST due to the inclusion of **case-sen
 - Characters that are visually similar are common sources of error:
   - 'O' vs '0'
   - 'l' vs '1'
-  - 'S' vs '5'
+  - 'q' or 'g' vs '9'
 
 These errors are expected in grayscale single-character classification tasks, especially with similar pixel structures.
 
