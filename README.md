@@ -45,6 +45,8 @@ This dataset poses more challenges than MNIST due to the inclusion of **case-sen
 
 ### 2. Frequent misclassifications
 
+![](pictures/error_prediction.png)
+
 - Characters that are visually similar are common sources of error:
   - 'O' vs '0'
   - 'l' vs '1'
